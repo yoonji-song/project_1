@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Python virtual environments and bytecode
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python build artifacts
+*.egg-info/
+.eggs/
+build/
+develop-eggs/
+.installed.cfg
+*.manifest
+*.spec
+
+# Poetry lock file (optional: keep if managing explicitly)
+poetry.lock
+
+# Environment & secrets
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# MacOS & system files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Netlify (optional, local dev)
+.netlify/
