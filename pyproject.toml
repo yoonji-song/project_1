@@ -1,0 +1,23 @@
+[project]
+name = "project-1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yoonji-song", email = "songyj@snu.ac.kr"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "flask (>=3.1.1,<4.0.0)",
+    "flask-cors (>=6.0.1,<7.0.0)",
+    "sympy (>=1.14.0,<2.0.0)",
+    "pillow (>=11.3.0,<12.0.0)",
+    "pytesseract (>=0.3.13,<0.4.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
